@@ -49,8 +49,8 @@ public class Table implements Serializable {
         return trace;
     }
 
-    public void addTrace(String traceLine) {
-        trace.add(traceLine);
+    public void addTrace(String  LTrace) {
+        trace.add( LTrace);
     }
 
     public String getFullTrace() {
